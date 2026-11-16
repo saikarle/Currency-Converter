@@ -17,8 +17,7 @@ This is a currency converter built with React. I made it while learning, and it 
 ## Tech Stack
 - React
 - JavaScript
-- [Add the API you used, e.g., ExchangeRate-API or Frankfurter]
-- [Add CSS framework or styling method, if any]
+-
 
 ## Installation
 ```bash
