@@ -1,16 +1,39 @@
-# React + Vite
+## About
+This is a currency converter built with React. I made it while learning, and it helped me understand how to work with APIs, manage state, and build interactive user interfaces. I really enjoyed building it and learned a lot along the way.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What I Learned
+- Fetching live exchange rate data from an API
+- Handling asynchronous code with `async/await` and `useEffect`
+- Managing component state with `useState`
+- Handling user input and form events
+- Handling loading and error states
+- Structuring a React project into reusable components
 
-Currently, two official plugins are available:
+## Features
+- Convert between multiple currencies
+- Live exchange rates from an API
+- Simple and responsive interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- JavaScript
+- [Add the API you used, e.g., ExchangeRate-API or Frankfurter]
+- [Add CSS framework or styling method, if any]
 
-## React Compiler
+## Installation
+```bash
+git clone <your-repo-url>
+cd currency-converter
+npm install
+npm start
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Usage
+1. Select the currency you want to exchange from the first dropdown.
+2. Enter the amount and the exchange rate.
+3. Click **Convert** to see the converted value.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contributing
+Feedback and suggestions are welcome. Feel free to open an issue or submit a pull request.
+
